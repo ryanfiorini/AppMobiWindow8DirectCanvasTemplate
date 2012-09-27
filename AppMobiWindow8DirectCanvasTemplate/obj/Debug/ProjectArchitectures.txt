@@ -1,0 +1,1 @@
+C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate.csproj;neutral
