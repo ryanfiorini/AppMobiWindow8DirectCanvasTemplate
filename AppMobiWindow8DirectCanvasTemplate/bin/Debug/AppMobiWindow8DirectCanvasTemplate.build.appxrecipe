@@ -74,9 +74,6 @@
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\RagingRooster.png">
       <PackagePath>html\media\RagingRooster.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\welt\collisiontiles-48x48.png">
-      <PackagePath>html\welt\collisiontiles-48x48.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\appmobi_local_bootstrap.js">
       <PackagePath>html\appmobi_local_bootstrap.js</PackagePath>
     </AppxPackagedFile>
@@ -167,18 +164,6 @@
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\index.html">
       <PackagePath>html\index.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\test.html">
-      <PackagePath>html\test.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\test2.html">
-      <PackagePath>html\test2.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\test3.html">
-      <PackagePath>html\test3.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\test4.html">
-      <PackagePath>html\test4.html</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\debug\debug.css">
       <PackagePath>html\lib\impact\debug\debug.css</PackagePath>
     </AppxPackagedFile>
@@ -197,8 +182,8 @@
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\bin\Debug\MainPage.xaml">
-      <PackagePath>MainPage.xaml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\bin\Debug\AppMobiPage.xaml">
+      <PackagePath>AppMobiPage.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

@@ -106,8 +106,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
+    <Compile Include="AppMobiPage.xaml.cs">
+      <DependentUpon>AppMobiPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -116,8 +116,6 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="AppMobiWindow8DirectCanvasTemplate_TemporaryKey.pfx" />
-    <None Include="html\.DS_Store" />
-    <None Include="html\lib\.DS_Store" />
     <None Include="html\sounds\bgAudio.ogg" />
     <None Include="html\sounds\bounce.ogg" />
   </ItemGroup>
@@ -173,11 +171,6 @@
     <Content Include="html\media\RagingRooster.png" />
     <Content Include="html\sounds\bgAudio.mp3" />
     <Content Include="html\sounds\bounce.mp3" />
-    <Content Include="html\test.html" />
-    <Content Include="html\test2.html" />
-    <Content Include="html\test3.html" />
-    <Content Include="html\test4.html" />
-    <Content Include="html\welt\collisiontiles-48x48.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -188,7 +181,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MainPage.xaml">
+    <Page Include="AppMobiPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

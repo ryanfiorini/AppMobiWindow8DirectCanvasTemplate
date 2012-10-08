@@ -3,8 +3,8 @@ Assets\SmallLogo.png
 Assets\SplashScreen.png
 Assets\StoreLogo.png
 App.xaml
+AppMobiPage.xaml
 Common\StandardStyles.xaml
-MainPage.xaml
 html\appmobi_local_bootstrap.js
 html\index.html
 html\index.js
@@ -52,8 +52,3 @@ html\media\grass_sm.png
 html\media\RagingRooster.png
 html\sounds\bgAudio.mp3
 html\sounds\bounce.mp3
-html\test.html
-html\test2.html
-html\test3.html
-html\test4.html
-html\welt\collisiontiles-48x48.png
