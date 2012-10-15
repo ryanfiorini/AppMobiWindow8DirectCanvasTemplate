@@ -7,7 +7,7 @@
     <ProjectGuid>{EC942928-DAA8-47B2-B004-9F679226D90B}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AppMobiWindow8DirectCanvasTemplate</RootNamespace>
+    <RootNamespace>AppMobiWindows8DirectCanvasTemplate</RootNamespace>
     <AssemblyName>AppMobiWindow8DirectCanvasTemplate</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
