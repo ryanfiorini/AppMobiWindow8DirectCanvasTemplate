@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RYAN-WIN8</Machine>
+    <WindowsUser>Ryan</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>318DD4100CB854FBE59CCC3781F193EB98F951F2D7589798CF103132E4804383</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>951684e7-fa2b-4abe-8c6f-5450962d19c8_1.0.0.0_neutral__3y0bchp7kwvet</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>951684e7-fa2b-4abe-8c6f-5450962d19c8_3y0bchp7kwvet!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>951684e7-fa2b-4abe-8c6f-5450962d19c8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Ryan</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-27T18:27:45.585</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\bin\Debug\AppMobiWindow8DirectCanvasTemplate.exe">
+      <PackagePath>AppMobiWindow8DirectCanvasTemplate.exe</PackagePath>
+      <Modified>2012-09-27T18:27:45.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\bin\Debug\AppMobiWindow8DirectCanvasTemplate.pdb">
+      <PackagePath>AppMobiWindow8DirectCanvasTemplate.pdb</PackagePath>
+      <Modified>2012-09-27T18:27:45.270</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\04b03.font.png">
+      <PackagePath>html\media\04b03.font.png</PackagePath>
+      <Modified>2012-09-27T14:19:07.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\Buttons_Bkgrd.png">
+      <PackagePath>html\media\Buttons_Bkgrd.png</PackagePath>
+      <Modified>2012-09-27T14:19:07.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\Button_Add.png">
+      <PackagePath>html\media\Button_Add.png</PackagePath>
+      <Modified>2012-09-27T14:19:07.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\Button_Add_Over.png">
+      <PackagePath>html\media\Button_Add_Over.png</PackagePath>
+      <Modified>2012-09-27T14:19:07.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\Button_Remove.png">
+      <PackagePath>html\media\Button_Remove.png</PackagePath>
+      <Modified>2012-09-27T14:19:07.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\Button_Remove_Over.png">
+      <PackagePath>html\media\Button_Remove_Over.png</PackagePath>
+      <Modified>2012-09-27T14:19:07.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\Button_Sound-Off.png">
+      <PackagePath>html\media\Button_Sound-Off.png</PackagePath>
+      <Modified>2012-09-27T14:19:07.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\Button_Sound-Off_Over.png">
+      <PackagePath>html\media\Button_Sound-Off_Over.png</PackagePath>
+      <Modified>2012-09-27T14:19:07.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\Button_Sound-On.png">
+      <PackagePath>html\media\Button_Sound-On.png</PackagePath>
+      <Modified>2012-09-27T14:19:07.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\Button_Sound-On_Over.png">
+      <PackagePath>html\media\Button_Sound-On_Over.png</PackagePath>
+      <Modified>2012-09-27T14:19:07.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\FPS-Entities_Bkgrd.png">
+      <PackagePath>html\media\FPS-Entities_Bkgrd.png</PackagePath>
+      <Modified>2012-09-27T14:19:07.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\grass_sm.png">
+      <PackagePath>html\media\grass_sm.png</PackagePath>
+      <Modified>2012-09-27T14:19:07.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\RagingRooster.png">
+      <PackagePath>html\media\RagingRooster.png</PackagePath>
+      <Modified>2012-09-27T14:19:07.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\appmobi_local_bootstrap.js">
+      <PackagePath>html\appmobi_local_bootstrap.js</PackagePath>
+      <Modified>2012-09-27T14:19:08.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\index.js">
+      <PackagePath>html\index.js</PackagePath>
+      <Modified>2012-09-27T14:19:08.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\appmobi\keymapper.js">
+      <PackagePath>html\lib\appmobi\keymapper.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\game\entities\player.js">
+      <PackagePath>html\lib\game\entities\player.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\game\main.js">
+      <PackagePath>html\lib\game\main.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\animation.js">
+      <PackagePath>html\lib\impact\animation.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\background-map.js">
+      <PackagePath>html\lib\impact\background-map.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\collision-map.js">
+      <PackagePath>html\lib\impact\collision-map.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\debug\debug.js">
+      <PackagePath>html\lib\impact\debug\debug.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\debug\entities-panel.js">
+      <PackagePath>html\lib\impact\debug\entities-panel.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\debug\graph-panel.js">
+      <PackagePath>html\lib\impact\debug\graph-panel.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\debug\maps-panel.js">
+      <PackagePath>html\lib\impact\debug\maps-panel.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\debug\menu.js">
+      <PackagePath>html\lib\impact\debug\menu.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\entity.js">
+      <PackagePath>html\lib\impact\entity.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\font.js">
+      <PackagePath>html\lib\impact\font.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.884</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\game.js">
+      <PackagePath>html\lib\impact\game.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\image.js">
+      <PackagePath>html\lib\impact\image.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\impact.js">
+      <PackagePath>html\lib\impact\impact.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\input.js">
+      <PackagePath>html\lib\impact\input.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\loader.js">
+      <PackagePath>html\lib\impact\loader.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\map.js">
+      <PackagePath>html\lib\impact\map.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\sound.js">
+      <PackagePath>html\lib\impact\sound.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.907</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\system.js">
+      <PackagePath>html\lib\impact\system.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\timer.js">
+      <PackagePath>html\lib\impact\timer.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\plugins\dc\animation.js">
+      <PackagePath>html\lib\plugins\dc\animation.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\plugins\dc\dc.js">
+      <PackagePath>html\lib\plugins\dc\dc.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\plugins\dc\image.js">
+      <PackagePath>html\lib\plugins\dc\image.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\plugins\dc\loader.js">
+      <PackagePath>html\lib\plugins\dc\loader.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\plugins\dc\system.js">
+      <PackagePath>html\lib\plugins\dc\system.js</PackagePath>
+      <Modified>2012-09-27T14:19:07.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\index.html">
+      <PackagePath>html\index.html</PackagePath>
+      <Modified>2012-09-27T14:19:08.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\impact\debug\debug.css">
+      <PackagePath>html\lib\impact\debug\debug.css</PackagePath>
+      <Modified>2012-09-27T14:19:07.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\media\Bkgrd_DC.jpg">
+      <PackagePath>html\media\Bkgrd_DC.jpg</PackagePath>
+      <Modified>2012-09-27T14:19:07.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\sounds\bgAudio.mp3">
+      <PackagePath>html\sounds\bgAudio.mp3</PackagePath>
+      <Modified>2012-09-27T14:19:08.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\sounds\bounce.mp3">
+      <PackagePath>html\sounds\bounce.mp3</PackagePath>
+      <Modified>2012-09-27T14:19:08.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-09-27T13:38:05.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T23:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\bin\Debug\AppMobiPage.xaml">
+      <PackagePath>AppMobiPage.xaml</PackagePath>
+      <Modified>2012-09-27T18:27:26.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-09-27T18:27:45.444</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
