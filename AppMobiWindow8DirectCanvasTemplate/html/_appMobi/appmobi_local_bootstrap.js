@@ -39,7 +39,8 @@ function loadWebScript() {
 	script.onload = function() {
 		if(debug) console.log('got cloud-based appmobi.js');
 	}
-	script.src = "https://d3ezoyt41ban9s.cloudfront.net/javascript/web/3.4.0/appmobi.js";
+	//script.src = "https://d3ezoyt41ban9s.cloudfront.net/javascript/web/3.4.0/appmobi.js";
+	script.src = "_appMobi/appmobi.js";
 	head.appendChild(script);
 }
 
@@ -1798,41 +1799,41 @@ if(typeof AppMobiLocalFlag != "undefined") {
 	 * This class provides access to facebook.
 	 * @constructor
 	 */
-	AppMobi.Facebook = function() {
+	AppMobi.appMobiFacebookTemplate = function() {
 		this.willHandleUserTouchingLink =  false;
 	}
 	
-	AppMobi.Facebook.prototype.login = function(permissions) {
+	AppMobi.appMobiFacebookTemplate.prototype.login = function (permissions) {
 		AppMobi.facebook.internal.login(permissions);
 	}
 	
-	AppMobi.Facebook.prototype.logout = function() {
+	AppMobi.appMobiFacebookTemplate.prototype.logout = function() {
 		AppMobi.facebook.internal.logout();
 	}
 	
-	AppMobi.Facebook.prototype.requestWithRestAPI = function(command, method, parameters) {
+	AppMobi.appMobiFacebookTemplate.prototype.requestWithRestAPI = function(command, method, parameters) {
 		AppMobi.facebook.internal.api(command, method, parameters);
 	}
 	
-	AppMobi.Facebook.prototype.requestWithGraphAPI = function(path, method, parameters) {
+	AppMobi.appMobiFacebookTemplate.prototype.requestWithGraphAPI = function(path, method, parameters) {
 		AppMobi.facebook.internal.api(path, method, parameters);
 	}
 	
-	AppMobi.Facebook.prototype.showAppRequestDialog = function(parameters) {
+	AppMobi.appMobiFacebookTemplate.prototype.showAppRequestDialog = function(parameters) {
 		AppMobi.facebook.internal.appRequest(parameters);
 	}
 	
-	AppMobi.Facebook.prototype.showNewsFeedDialog = function(parameters) {
+	AppMobi.appMobiFacebookTemplate.prototype.showNewsFeedDialog = function(parameters) {
 		if( typeof(parameters) == "undefined" || typeof(parameters) != "object" )
 			parameters = {};
 		parameters.method = "feed";
 		AppMobi.facebook.internal.ui(parameters, "dialog");
 	}
 	
-	AppMobi.Facebook.prototype.enableFrictionlessRequests = function() {
+	AppMobi.appMobiFacebookTemplate.prototype.enableFrictionlessRequests = function() {
 		AppMobi.facebook.internal.frictionless = true;
 	}
-	if (typeof AppMobi.facebook == "undefined") AppMobi.facebook = new AppMobi.Facebook();
+	if (typeof AppMobi.facebook == "undefined") AppMobi.facebook = new AppMobi.appMobiFacebookTemplate();
 	
 	AppMobi.FacebookInternal = function() {
 		this._keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
@@ -2290,7 +2291,7 @@ if(typeof AppMobiLocalFlag != "undefined") {
 		AppMobi.player.loadSound(sound, count);
 	}
 	AppMobi.context.hideLoadingScreen = function () { };
-try{	
+    try {
 		window.addEventListener("load", function (e) {
 		window.addEventListener("message", function(e) { try { eval(e.data); } catch(ex) { } }, false);
 		
@@ -2408,7 +2409,7 @@ try{
 	function fireDeviceReady() {
 		AppMobi.helper.sendAppStart();
 		AppMobi.helper.sendXPromoRunHome();
-	
+
 		var evt = document.createEvent('Events');
 		evt.initEvent("appMobi.device.ready",true,true);
 		document.dispatchEvent(evt);
