@@ -172,6 +172,8 @@
     <Content Include="html\media\RagingRooster.png" />
     <Content Include="html\sounds\bgAudio.mp3" />
     <Content Include="html\sounds\bounce.mp3" />
+    <Content Include="html\_appMobi\window.js" />
+    <Content Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

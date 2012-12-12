@@ -7,6 +7,7 @@ AppMobiPage.xaml
 Common\StandardStyles.xaml
 html\_appMobi\appmobi.js
 html\_appMobi\appmobi_local_bootstrap.js
+html\_appMobi\window.js
 html\index.html
 html\index.js
 html\lib\appmobi\keymapper.js
@@ -53,3 +54,4 @@ html\media\grass_sm.png
 html\media\RagingRooster.png
 html\sounds\bgAudio.mp3
 html\sounds\bounce.mp3
+readme.txt

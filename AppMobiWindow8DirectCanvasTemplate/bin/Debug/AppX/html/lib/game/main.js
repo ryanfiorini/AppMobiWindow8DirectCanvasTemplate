@@ -148,7 +148,7 @@ MyGame = ig.Game.extend({
 			var text = 'a: Add, r: Remove, m: Mute, p: Pause';
 			var metrics = ig.system.context.measureText(text);
 			var width = metrics.width;
-			ig.system.context.fillText(text,(ig.system.width/2)-(width/2),25);			
+			//ig.system.context.fillText(text,(ig.system.width/2)-(width/2),25);			
 		}
 						
 		//do any fps init
@@ -228,6 +228,9 @@ MyGame = ig.Game.extend({
 	}
 	
 });
+
+ig.ua.mobile = true;
+//ig.Sound.enabled = false;
 
 //override event hooks
 AppMobi.updateFPS = function(fps) {

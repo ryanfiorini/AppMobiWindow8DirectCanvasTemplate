@@ -7,9 +7,12 @@ C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\Ap
 C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\App.g.cs
 C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\Common\StandardStyles.g.i.cs
 C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\AppMobiPage.g.i.cs
+C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\AppMobiPage.g.cs
 C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\XamlTypeInfo.g.cs
 C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\App.xaml
 C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\Common\StandardStyles.xaml
+C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\AppMobiPage.xaml
 C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\AppMobiWindow8DirectCanvasTemplate.exe
 C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\AppMobiWindow8DirectCanvasTemplate.pdb
 C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\priconfig.xml.intermediate
@@ -22,6 +25,3 @@ C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\Ap
 C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\pri.resfiles
 C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\LanguageQualifiers.txt
 C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\ProjectArchitectures.txt
-C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\AppMobiPage.g.i.cs
-C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\AppMobiPage.g.cs
-C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\obj\Debug\AppMobiPage.xaml

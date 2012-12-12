@@ -164,6 +164,9 @@
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\lib\plugins\dc\system.js">
       <PackagePath>html\lib\plugins\dc\system.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\_appMobi\window.js">
+      <PackagePath>html\_appMobi\window.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\index.html">
       <PackagePath>html\index.html</PackagePath>
     </AppxPackagedFile>
@@ -178,6 +181,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\html\sounds\bounce.mp3">
       <PackagePath>html\sounds\bounce.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\readme.txt">
+      <PackagePath>readme.txt</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8DirectCanvasTemplate\AppMobiWindow8DirectCanvasTemplate\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>

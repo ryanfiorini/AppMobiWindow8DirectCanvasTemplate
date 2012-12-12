@@ -116,12 +116,13 @@ ig.Input = ig.Class.extend({
 	initMouse: function() {
 		if( this.isUsingMouse ) { return; }
 		this.isUsingMouse = true;
+        /*
 		window.addEventListener('mousewheel', this.mousewheel.bind(this), false );
 		ig.system.canvas.addEventListener('contextmenu', this.contextmenu.bind(this), false );
 		ig.system.canvas.addEventListener('mousedown', this.keydown.bind(this), false );
 		ig.system.canvas.addEventListener('mouseup', this.keyup.bind(this), false );
 		ig.system.canvas.addEventListener('mousemove', this.mousemove.bind(this), false );
-		
+		*/
 		ig.system.canvas.addEventListener('touchstart', this.keydown.bind(this), false );
 		ig.system.canvas.addEventListener('touchend', this.keyup.bind(this), false );
 		ig.system.canvas.addEventListener('touchmove', this.mousemove.bind(this), false );

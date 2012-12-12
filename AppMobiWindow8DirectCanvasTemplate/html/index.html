@@ -7,6 +7,7 @@
 	
 	<title>directCanvas Demo</title>
 	<script type="text/javascript" src="_appMobi/appmobi_local_bootstrap.js"></script> 
+
 	<script type="text/javascript" charset="utf-8" src="lib/appmobi/keymapper.js"></script> 
 	<script type="text/javascript" language="javascript">
 	 	function init()
@@ -16,10 +17,10 @@
 			clickTrap.style.height = window.outerHeight+'px';
 			clickTrap.addEventListener('touchstart', pauseHandler, false);
 			//bind keys to buttons
-			mapKeyToElement("a", "add");
-			mapKeyToElement("r", "remove");
-			mapKeyToElement("m", "Mute");
-			mapKeyToElement("p", "clickTrap");
+			//mapKeyToElement("a", "add");
+			//mapKeyToElement("r", "remove");
+			//mapKeyToElement("m", "Mute");
+			//mapKeyToElement("p", "clickTrap");
 		}
 		
 		function canvasLoaded() {
@@ -66,6 +67,11 @@
 			
 			//hide spash screen
 			AppMobi.device.hideSplashScreen();
+			document.getElementById("mytest").addEventListener("touchstart", function (e) {
+			    console.log("touch start bubble");
+			}
+			    ,false)
+
 		}
 		
 
@@ -84,7 +90,8 @@
 			AppMobi.canvas.execute('ig.input.actions[\'add\']=true;ig.input.presses[\'add\']=true;'); 
 		}
 		function addBirdEnd() {
-			document.getElementById('add').src='media/Button_Add.png';
+		    document.getElementById('add').src = 'media/Button_Add.png';
+
 			AppMobi.canvas.execute('ig.input.delayedKeyup.push( \'add\' )');
 		}
 		function removeBirdStart() {
@@ -137,6 +144,9 @@
 		} catch(e){}
 				
 	 </script>
+
+    	<script type="text/javascript" src="_appMobi/window.js"></script> 
+
 	<style type="text/css">
 		 /* Prevent copy paste for all elements except text fields */
    *  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
@@ -151,7 +161,7 @@
 	<img style="position:absolute;bottom:0px;left:0px;opacity:0.75;" src="media/Buttons_Bkgrd.png">
 	<img style="position:absolute;bottom:0px;right:0px;opacity:0.75;" src="media/FPS-Entities_Bkgrd.png">
 	
-	<div style="position:absolute;width:70px;height:93px;bottom:0px;left:20px;opacity:0.75" ontouchstart="addBirdStart()" ontouchend="addBirdEnd()">
+	<div id="mytest" style="position:absolute;width:70px;height:93px;bottom:0px;left:20px;opacity:0.75" ontouchstart="addBirdStart()" ontouchend="addBirdEnd()">
 		<img id="add" style="position:absolute;top:8px;left:0px;" src="media/Button_Add.png">
 	</div>
 	<div style="position:absolute;width:70px;height:93px;bottom:0px;left:95px;opacity:0.75" ontouchstart="removeBirdStart()" ontouchend="removeBirdEnd()">
