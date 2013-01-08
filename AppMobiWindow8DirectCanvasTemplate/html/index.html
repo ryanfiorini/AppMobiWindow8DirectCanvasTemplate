@@ -11,7 +11,8 @@
 	<script type="text/javascript" charset="utf-8" src="lib/appmobi/keymapper.js"></script> 
 	<script type="text/javascript" language="javascript">
 	 	function init()
-		{
+	 	{
+	 	    console.log("in init");
 			var clickTrap = document.getElementById('clickTrap');
 			clickTrap.style.width = window.outerWidth+'px';
 			clickTrap.style.height = window.outerHeight+'px';
@@ -47,13 +48,18 @@
 			console.log('got device ready');
 
 			//affects asset scaling in webview
-			AppMobi.display.useViewport(0,512);
 			document.getElementsByTagName('body')[0].style.visibility="visible";
 			
 			//lock orientation
-			AppMobi.device.setRotateOrientation("landscape");
+			var orientation = "landscape";  // portrait or landscape
+			var portraitWidth = 768;
+			var landscapeWidth = 1024;
+
 			AppMobi.device.setAutoRotate(false);
-			
+			AppMobi.device.setRotateOrientation(orientation);
+		    //Size the display to 768px by 1024px
+			AppMobi.display.useViewport(portraitWidth, landscapeWidth);
+
 			//manage power
 			AppMobi.device.managePower(true,false);
 			
@@ -62,16 +68,19 @@
 				AppMobi.device.hideStatusBar();
 			}
 			
-			//start DirectCanvas
-			AppMobi.canvas.load("index.js");	
-			
-			//hide spash screen
+			console.log("1");
 			AppMobi.device.hideSplashScreen();
-			document.getElementById("mytest").addEventListener("touchstart", function (e) {
-			    console.log("touch start bubble");
-			}
-			    ,false)
 
+		    //start DirectCanvas
+			setTimeout(function(){
+			    AppMobi.canvas.load("index.js");
+			
+			    //hide spash screen
+			    document.getElementById("mytest").addEventListener("touchstart", function (e) {
+			        console.log("touch start bubble");
+			    }
+                    ,false)
+			},2000);
 		}
 		
 

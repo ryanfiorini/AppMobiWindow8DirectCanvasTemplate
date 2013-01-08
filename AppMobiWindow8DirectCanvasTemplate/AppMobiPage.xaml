@@ -4,9 +4,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    x:Name="appMobiPage">
 
-    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+    <Grid x:Name="LayoutRoot" Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
@@ -14,6 +15,20 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <WebView x:Name="webView" Grid.Column="0" Grid.Row="0"></WebView>
+        <WebView 
+            x:Name="webView" 
+            Canvas.Top="0"
+            Canvas.Left="0"
+            Margin="0,0,0,0"
+            Visibility="Collapsed"></WebView>
+        <Image Source="Assets/splash_landscape.png"
+            Canvas.Top="0"
+            Canvas.Left="0"
+            x:Name="SplashScreen"
+            Margin="0,0,0,0" 
+            Stretch="Fill"
+            VerticalAlignment="Stretch"
+            HorizontalAlignment="Stretch">
+        </Image>
     </Grid>
 </Page>

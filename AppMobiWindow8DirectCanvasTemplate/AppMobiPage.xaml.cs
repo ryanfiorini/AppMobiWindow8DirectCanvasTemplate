@@ -1,4 +1,5 @@
-﻿using System;
+﻿using appMobiWebViewWindows8;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -19,11 +20,22 @@ namespace AppMobiWindows8DirectCanvasTemplate
     /// </summary>
     public sealed partial class AppMobiPage : Page
     {
+        public appMobiWebView amWebView;
+
         public AppMobiPage()
         {
             this.InitializeComponent();
 
-            webView.Navigate(new Uri("ms-appx-web:///html/index.html"));
+            amWebView = new appMobiWebView(webView, appMobiPage, new Uri("ms-appx-web:///html/index.html"));
+
+            // Implement splash screen handler
+            amWebView.HideSplashScreen += amWebView_HideSplashScreen;
+        }
+
+        void amWebView_HideSplashScreen(object sender, EventArgs e)
+        {
+            webView.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            LayoutRoot.Children.Remove(this.SplashScreen);
         }
 
         /// <summary>

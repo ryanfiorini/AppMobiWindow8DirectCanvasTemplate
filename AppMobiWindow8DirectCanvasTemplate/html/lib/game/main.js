@@ -30,9 +30,6 @@ MyGame = ig.Game.extend({
 	}, 
 	
 	init: function() {
-		
-		console.log('in init');
-		
 		//avoid first play stutter
 		AppMobi.context.loadPolySound(this.bounceSound, 5);
 		AppMobi.context.startBackgroundSound(this.bgAudio, true);
@@ -55,7 +52,6 @@ MyGame = ig.Game.extend({
 		
 		this.collisionMap = new ig.CollisionMap(tileSize, data);
 		this.makeBird();
-		
 	},
 	
 	update: function() {		
